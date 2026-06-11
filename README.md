@@ -192,15 +192,17 @@ Combine the two files with 'cat'
 cat first10lines.txt last10lines.txt > 20linesofDNA.txt
 ```
 
+Use the graphical file system to download the '20linesofDNA.txt' file to your local computer from the remote Palmetto2 cluster.
+
 Here is a generative AI prompt to explain the concept of plain text files:
 
 ```
-I'm starting computational biology work and need to understand text file basics better. Could you explain:
-1. What makes a file "plain text" and why this format is essential for bioinformatics data
-2. How to create and edit text files using command-line editors (nano, vim) in Linux environments
-3. How to generate text files using bash redirection operators (>, >>, <<) with practical examples
-4. Key differences in working with text files across Windows, macOS, and Linux platforms
-5. Best practices for text file management in collaborative bioinformatics projects
+I'm a beginner computational biologist and need to better understand text file basics. Could you explain:
+1. What makes a file "plain text" and why this format is essential for bioinformatics data?
+2. How does one create and edit text files using command-line editors (nano, vim) in Linux environments?
+3. How does one  generate text files using bash redirection operators (>, >>, <<) with practical examples?
+4. What are the key differences in working with text files across Windows, macOS, and Linux platforms?
+5. What are some best practices for text file management in collaborative bioinformatics projects?
 Please include specific commands and examples relevant to genomic data workflows.
 ```
 
