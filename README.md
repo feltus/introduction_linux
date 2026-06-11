@@ -168,7 +168,7 @@ Note:  When doing work on a shared cluster like Palmetto, always start by creati
 cd /scratch/<USERNAME>
 mkdir nematode_project_2025-12-13
 ```
-
+# Work with files in the working directory in scratch space on Palmetto.
 Download and uncompress the nematode (Caenorhabditis elegans) genome assembly file in this working directory.  
 ```
 wget https://ftp.ensembl.org/pub/release-114/fasta/caenorhabditis_elegans/dna/Caenorhabditis_elegans.WBcel235.dna.toplevel.fa.gz
@@ -192,8 +192,10 @@ Combine the two files with 'cat'
 cat first10lines.txt last10lines.txt > 20linesofDNA.txt
 ```
 
-Use the graphical file system to download the '20linesofDNA.txt' file to your local computer from the remote Palmetto2 cluster.
+# Download a file from Palmetto to your local computer.
+Use the graphical file system to download the '20linesofDNA.txt' file to your local computer from the Palmetto cluster.
 
+# Part 4: Dig Deeper with AI
 Here is a generative AI prompt to explain the concept of plain text files:
 
 ```
